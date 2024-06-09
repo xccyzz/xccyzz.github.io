@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Call Me By Your Name</title>
+  <title>大海 大田 小花园</title>
   
-  <subtitle>大海 桥梁 心</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <subtitle>天地 梦想 心</subtitle>
+  <link href="https://xccyzz.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://xccyzz.github.io/"/>
   <updated>2021-08-04T08:44:50.252Z</updated>
-  <id>http://example.com/</id>
+  <id>https://xccyzz.github.io/</id>
   
   <author>
-    <name>行走的肉夹馍</name>
+    <name>无影灯</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>new post</title>
-    <link href="http://example.com/2021/08/04/new-post/"/>
-    <id>http://example.com/2021/08/04/new-post/</id>
+    <link href="https://xccyzz.github.io/2021/08/04/new-post/"/>
+    <id>https://xccyzz.github.io/2021/08/04/new-post/</id>
     <published>2021-08-04T00:44:50.000Z</published>
     <updated>2021-08-04T08:44:50.252Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>高光谱卫星介绍</title>
-    <link href="http://example.com/2021/08/04/%E9%AB%98%E5%85%89%E8%B0%B1%E5%8D%AB%E6%98%9F%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://example.com/2021/08/04/%E9%AB%98%E5%85%89%E8%B0%B1%E5%8D%AB%E6%98%9F%E4%BB%8B%E7%BB%8D/</id>
+    <link href="https://xccyzz.github.io/2021/08/04/%E9%AB%98%E5%85%89%E8%B0%B1%E5%8D%AB%E6%98%9F%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://xccyzz.github.io/2021/08/04/%E9%AB%98%E5%85%89%E8%B0%B1%E5%8D%AB%E6%98%9F%E4%BB%8B%E7%BB%8D/</id>
     <published>2021-08-04T00:44:50.000Z</published>
     <updated>2021-10-04T13:07:18.212Z</updated>
     
@@ -45,14 +45,14 @@
     
     
     
-    <category term="RS" scheme="http://example.com/tags/RS/"/>
+    <category term="RS" scheme="https://xccyzz.github.io/tags/RS/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/07/28/hello-world/"/>
-    <id>http://example.com/2021/07/28/hello-world/</id>
+    <link href="https://xccyzz.github.io/2021/07/28/hello-world/"/>
+    <id>https://xccyzz.github.io/2021/07/28/hello-world/</id>
     <published>2021-07-28T12:57:08.726Z</published>
     <updated>2021-07-28T12:57:08.726Z</updated>
     
