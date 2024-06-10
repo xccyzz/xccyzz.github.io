@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xccyzz.github.io/2024/06/10/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Google_Earth_Engine_Python_API/</loc>
+    
+    <lastmod>2024-06-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xccyzz.github.io/link/index.html</loc>
     
     <lastmod>2024-06-10</lastmod>
@@ -106,6 +115,34 @@
   </url>
   
   <url>
+    <loc>https://xccyzz.github.io/tags/Google-Earth-Engine/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xccyzz.github.io/tags/Python/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xccyzz.github.io/tags/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://xccyzz.github.io/tags/API/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xccyzz.github.io/tags/%E8%AF%BB%E4%B9%A6%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2024-06-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -176,6 +213,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://xccyzz.github.io/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://xccyzz.github.io/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/</loc>

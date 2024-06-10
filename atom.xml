@@ -41,6 +41,36 @@
   </entry>
   
   <entry>
+    <title>如何安装Google Earth Engine Python API</title>
+    <link href="https://xccyzz.github.io/2024/06/10/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Google_Earth_Engine_Python_API/"/>
+    <id>https://xccyzz.github.io/2024/06/10/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Google_Earth_Engine_Python_API/</id>
+    <published>2024-06-09T16:00:00.000Z</published>
+    <updated>2024-06-10T09:50:38.710Z</updated>
+    
+    <content type="html"><![CDATA[<p>在这篇博客中，我将根据<a href="https://courses.spatialthoughts.com/install-gee-python-api.html">Spatial Thoughts指南</a>详细介绍安装Google Earth Engine (GEE) Python API的步骤。包括设置Anaconda环境、安装必要的库以及配置认证。</p><h3 id="1-安装-Earth-Engine-API"><a href="#1-安装-Earth-Engine-API" class="headerlink" title="1. 安装 Earth Engine API"></a>1. 安装 Earth Engine API</h3><p><strong>步骤1：下载并安装Anaconda</strong></p><p>首先，下载适用于Python 3.7（或更高版本）的<a href="https://www.anaconda.com/products/distribution">Anaconda安装程序</a>。使用默认设置进行安装。确保安装路径不包含空格或非英文字符，以避免问题。</p><p><strong>步骤2：启动Anaconda Prompt</strong></p><ul><li><strong>Windows</strong>：搜索“Anaconda Prompt”并启动。</li><li><strong>Mac/Linux</strong>：打开一个终端窗口。</li></ul><p><strong>步骤3：创建新环境</strong></p><p>为避免与其他包冲突，创建一个名为<code>ee</code>的新环境：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create --name ee</span><br></pre></td></tr></table></figure><p>按<code>y</code>确认创建。</p><p><strong>步骤4：激活环境</strong></p><p>激活新创建的环境：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda activate ee</span><br></pre></td></tr></table></figure><p><strong>步骤5：安装 Earth Engine API</strong></p><p>从conda-forge安装Earth Engine API库：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install -c conda-forge earthengine-api</span><br></pre></td></tr></table></figure><p><strong>步骤6：安装额外的库</strong></p><p>安装<code>geemap</code>和<code>jupyterlab</code>库：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conda install -c conda-forge geemap</span><br><span class="line">conda install -c conda-forge jupyterlab</span><br></pre></td></tr></table></figure><h3 id="2-安装-Google-Cloud-CLI"><a href="#2-安装-Google-Cloud-CLI" class="headerlink" title="2. 安装 Google Cloud CLI"></a>2. 安装 Google Cloud CLI</h3><p>Google Earth Engine需要Google Cloud CLI进行认证。</p><p><strong>步骤1：下载并安装Google Cloud CLI</strong></p><p>按照<a href="https://cloud.google.com/sdk/docs/install">安装指南</a>为您的操作系统安装Google Cloud CLI。</p><p><strong>步骤2：初始化Google Cloud CLI</strong></p><p>通过运行以下命令配置<code>gcloud</code>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcloud init</span><br></pre></td></tr></table></figure><p>选择与您的GEE帐户关联的Google Cloud项目。</p><h3 id="3-认证"><a href="#3-认证" class="headerlink" title="3. 认证"></a>3. 认证</h3><p><strong>步骤1：激活环境</strong></p><p>确保您在<code>ee</code>环境中：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda activate ee</span><br></pre></td></tr></table></figure><p><strong>步骤2：认证 Earth Engine API</strong></p><p>运行以下命令进行认证：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">earthengine authenticate</span><br></pre></td></tr></table></figure><p>在浏览器中完成登录过程。</p><p><strong>步骤3：设置Google Cloud项目</strong></p><p>最后，设置您的Google Cloud项目：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">earthengine set_project &lt;project_name&gt;</span><br></pre></td></tr></table></figure><h3 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h3><p>要验证您的设置，请打开Jupyter Lab：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter lab</span><br></pre></td></tr></table></figure><p>在Jupyter Lab中，创建一个新笔记本并运行：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> ee</span><br><span class="line"><span class="keyword">import</span> geemap</span><br></pre></td></tr></table></figure><p>如果没有错误，您的环境就已正确设置。</p><p><img src="https://courses.spatialthoughts.com/assets/img/jupyter_lab.png" alt="Jupyter Lab 界面"></p><p>通过这些步骤，您可以成功安装和配置Google Earth Engine Python API。祝您编码愉快！</p><p>有关更多详细信息，请参阅<a href="https://courses.spatialthoughts.com/install-gee-python-api.html">完整指南</a>。</p><hr><p>如果您在安装过程中遇到任何问题，请在下面留言，或参考指南中提供的故障排除提示。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在这篇博客中，我将根据&lt;a href=&quot;https://courses.spatialthoughts.com/install-gee-python-api.html&quot;&gt;Spatial Thoughts指南&lt;/a&gt;详细介绍安装Google Earth Engine (GEE</summary>
+      
+    
+    
+    
+    <category term="技术博客" scheme="https://xccyzz.github.io/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Google Earth Engine" scheme="https://xccyzz.github.io/tags/Google-Earth-Engine/"/>
+    
+    <category term="Python" scheme="https://xccyzz.github.io/tags/Python/"/>
+    
+    <category term="安装指南" scheme="https://xccyzz.github.io/tags/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/"/>
+    
+    <category term="API" scheme="https://xccyzz.github.io/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
     <title>本森小姐的甲虫——追寻内心的呼喊与成长</title>
     <link href="https://xccyzz.github.io/2024/06/10/%E6%9C%AC%E6%A3%AE%E5%B0%8F%E5%A7%90%E7%9A%84%E7%94%B2%E8%99%AB%E2%80%94%E2%80%94%E8%BF%BD%E5%AF%BB%E5%86%85%E5%BF%83%E7%9A%84%E5%91%BC%E5%96%8A%E4%B8%8E%E6%88%90%E9%95%BF/"/>
     <id>https://xccyzz.github.io/2024/06/10/%E6%9C%AC%E6%A3%AE%E5%B0%8F%E5%A7%90%E7%9A%84%E7%94%B2%E8%99%AB%E2%80%94%E2%80%94%E8%BF%BD%E5%AF%BB%E5%86%85%E5%BF%83%E7%9A%84%E5%91%BC%E5%96%8A%E4%B8%8E%E6%88%90%E9%95%BF/</id>
