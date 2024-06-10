@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xccyzz.github.io/link/index.html</loc>
+    
+    <lastmod>2024-06-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xccyzz.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-06-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xccyzz.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-06-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xccyzz.github.io/2024/06/10/Butterfly_Theme_Hexo_Corrected/</loc>
     
     <lastmod>2024-06-10</lastmod>
