@@ -1,3 +1,4 @@
+https://xccyzz.github.io/2024/09/16/Gmail_API_Automation/
 https://xccyzz.github.io/2024/06/10/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85Google_Earth_Engine_Python_API/
 https://xccyzz.github.io/link/index.html
 https://xccyzz.github.io/categories/index.html
@@ -9,8 +10,11 @@ https://xccyzz.github.io/2021/08/04/%E9%AB%98%E5%85%89%E8%B0%B1%E5%8D%AB%E6%98%9
 https://xccyzz.github.io/
 https://xccyzz.github.io/tags/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/
 https://xccyzz.github.io/tags/hexo/
-https://xccyzz.github.io/tags/Google-Earth-Engine/
+https://xccyzz.github.io/tags/Gmail-API/
 https://xccyzz.github.io/tags/Python/
+https://xccyzz.github.io/tags/VPS/
+https://xccyzz.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/
+https://xccyzz.github.io/tags/Google-Earth-Engine/
 https://xccyzz.github.io/tags/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/
 https://xccyzz.github.io/tags/API/
 https://xccyzz.github.io/tags/%E8%AF%BB%E4%B9%A6%E9%9A%8F%E7%AC%94/
