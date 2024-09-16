@@ -1,3 +1,4 @@
+https://xccyzz.github.io/2024/09/16/%E5%BB%B6%E8%BF%9F%E9%80%80%E4%BC%91%E6%94%B9%E9%9D%A9_%E5%8D%9A%E5%AE%A2/
 https://xccyzz.github.io/2024/09/16/%E4%B8%80%E6%97%A5%E4%B8%89%E7%A7%8B%E8%AF%BB%E4%B9%A6%E9%9A%8F%E7%AC%94/
 https://xccyzz.github.io/2024/09/16/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%85%89%E8%B0%B1%E6%88%90%E5%83%8F%E7%BB%BC%E8%BF%B0/
 https://xccyzz.github.io/2024/09/16/Gmail_API_Automation/
@@ -29,6 +30,11 @@ https://xccyzz.github.io/tags/%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%B
 https://xccyzz.github.io/tags/Google-Earth-Engine/
 https://xccyzz.github.io/tags/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/
 https://xccyzz.github.io/tags/API/
+https://xccyzz.github.io/tags/%E5%BB%B6%E8%BF%9F%E9%80%80%E4%BC%91/
+https://xccyzz.github.io/tags/%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C/
+https://xccyzz.github.io/tags/%E5%85%BB%E8%80%81%E9%87%91%E6%94%B9%E9%9D%A9/
+https://xccyzz.github.io/tags/%E4%BD%93%E5%88%B6%E5%86%85%E8%A7%82%E5%AF%9F/
+https://xccyzz.github.io/tags/%E4%BA%BA%E5%8F%A3%E8%80%81%E9%BE%84%E5%8C%96/
 https://xccyzz.github.io/tags/%E8%AF%BB%E4%B9%A6%E9%9A%8F%E7%AC%94/
 https://xccyzz.github.io/tags/%E5%86%92%E9%99%A9/
 https://xccyzz.github.io/tags/%E6%88%90%E9%95%BF/
@@ -40,4 +46,5 @@ https://xccyzz.github.io/tags/%E5%94%90%E6%9C%9D/
 https://xccyzz.github.io/tags/RS/
 https://xccyzz.github.io/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/
 https://xccyzz.github.io/categories/%E8%AF%BB%E4%B9%A6%E9%9A%8F%E7%AC%94/
+https://xccyzz.github.io/categories/%E6%97%B6%E6%94%BF%E6%96%B0%E9%97%BB/
 https://xccyzz.github.io/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/
