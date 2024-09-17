@@ -6,7 +6,7 @@
   <link href="https://xccyzz.github.io/atom.xml" rel="self"/>
   
   <link href="https://xccyzz.github.io/"/>
-  <updated>2024-09-16T07:20:23.218Z</updated>
+  <updated>2024-09-17T01:07:13.192Z</updated>
   <id>https://xccyzz.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://xccyzz.github.io/2024/09/17/test/"/>
+    <id>https://xccyzz.github.io/2024/09/17/test/</id>
+    <published>2024-09-17T01:07:13.192Z</published>
+    <updated>2024-09-17T01:07:13.192Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="标题的用法"><a href="#标题的用法" class="headerlink" title="标题的用法"></a>标题的用法</h1><pre><code>标题主要靠“#”符号来控制。</code></pre><h1 id="字体的控制"><a href="#字体的控制" class="headerlink" title="字体的控制"></a>字体的控制</h1><pre><code>字体的加粗等主要靠*来控制，例如：</code></pre><p><strong>这个是加粗字体</strong></p><p><em>这个是斜体</em></p><p><em><strong>这个是粗斜体</strong></em></p><h1 id="引用的控制"><a href="#引用的控制" class="headerlink" title="引用的控制"></a>引用的控制</h1><p>引用就是将一部分内容放入循环嵌套的一个文字体中，例如：</p><blockquote><p>这里是文字的开始</p><blockquote><p>这里开始引用第一个层级的内容</p><blockquote><p>这里开始引用第二个层级的内容</p></blockquote></blockquote></blockquote><hr><h2 id="图片的引用"><a href="#图片的引用" class="headerlink" title="图片的引用"></a>图片的引用</h2><p>图床的模式，就是将描述和图片的链接规则化的整理到文档中，例如网上有个图片的地址为“<a href="https://pica.zhimg.com/80/v2-8888d38bb35ed58844bd6bd5c7a63181_1440w.jpg?source=1940ef5c%E2%80%9D">https://pica.zhimg.com/80/v2-8888d38bb35ed58844bd6bd5c7a63181_1440w.jpg?source=1940ef5c”</a></p><p><img src="%E8%BF%99%E9%87%8C%E6%98%AF%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="这里的这一段是图片的介绍" title="这里是图片说明"></p><p><img src="https://pica.zhimg.com/80/v2-8888d38bb35ed58844bd6bd5c7a63181_1440w.jpg?source=1940ef5c" alt="示例图片" title="这里是图片说明"></p><h2 id="超链接的引用"><a href="#超链接的引用" class="headerlink" title="超链接的引用"></a>超链接的引用</h2><p><a href="%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80" title="title">超链接说明</a></p><p>例如：<br><a href="http://www.baidu.com/" title="百度">百度网</a></p><h2 id="代码的引用"><a href="#代码的引用" class="headerlink" title="代码的引用"></a>代码的引用</h2><p>这里是要用反引号来引用的</p><p>反引号在~线的按键上</p><p>似乎用tab是同样的效果</p><pre><code>int a=1</code></pre><p><code>int a =1</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">int a=1</span><br><span class="line">int b=1</span><br></pre></td></tr></table></figure><pre><code>`代码内容`</code></pre><h2 id="表格的初步设计"><a href="#表格的初步设计" class="headerlink" title="表格的初步设计"></a>表格的初步设计</h2><table><thead><tr><th align="center">张三</th><th align="center">李四</th><th align="center">王五</th></tr></thead><tbody><tr><td align="center">可以</td><td align="center">是不是</td><td align="center">是的</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;标题的用法&quot;&gt;&lt;a href=&quot;#标题的用法&quot; class=&quot;headerlink&quot; title=&quot;标题的用法&quot;&gt;&lt;/a&gt;标题的用法&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;标题主要靠“#”符号来控制。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;字体的控制&quot;&gt;&lt;a hre</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>在VPS上设置并使用Gmail API进行自动化邮件管理</title>
@@ -261,8 +283,8 @@
   
   <entry>
     <title>new post</title>
-    <link href="https://xccyzz.github.io/2021/08/04/new-post/"/>
-    <id>https://xccyzz.github.io/2021/08/04/new-post/</id>
+    <link href="https://xccyzz.github.io/2021/08/04/new-post1/"/>
+    <id>https://xccyzz.github.io/2021/08/04/new-post1/</id>
     <published>2021-08-04T00:44:50.000Z</published>
     <updated>2024-09-16T13:33:52.362Z</updated>
     
